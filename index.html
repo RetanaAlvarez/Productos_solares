@@ -1,1 +1,193 @@
-"Hello World" 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Pag_Web</title>
+</head>
+
+<body>
+    <header>
+
+        <!--<div class="alert alert-primary" role="alert">a simple primary alert-check it out!</div>-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="a">logo</a>
+
+            <ul class="nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#informacion">inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#ubicacion">ubicacion</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#correo">correo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#productos">productos</a>
+                </li>
+                <li>
+
+                </li>
+            </ul>
+        </nav>
+        <div class="cover d-flex justify-content-center align-items-center flex-column">
+            <h1>info-security</h1>
+            <p>tecnologica seguridad y panales solares</p>
+            <button class="btn btn-dark">
+                conoce más
+            </button>
+        </div>
+    </header>
+    <section>
+        <div class="container mt-5" id="informacion">
+            <h2>Informacion General</h2>
+            <div class="row justify-content-center">
+                <div class="col-12 col-sm">
+                    <div class="card">
+                        <div title="camara" class="cover cover-small"
+                            style="background-image: url(imagenes/logo_camara.jpg);">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Camara de Seguridad</h5>
+                            <p class="card-text">Es una instalación de equipos conectados que generan un circuito de
+                                imágenes que solo puede ser visto por un grupo determinado de personas, estas se
+                                personalizan para adaptarse a las necesidades de cada cliente bien sean orientadas a la
+                                seguridad, vigilancia.</p>
+                            <!--<a href="#" class="btn btn-primary">ver más...</a>-->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm">
+                    <div class="card">
+                        <div title="lampara" class="cover cover-small"
+                            style="background-image: url(imagenes/logo_lamparas_solares.jpg);">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Lampara Solares</h5>
+                            <p class="card-text">Es un sistema de iluminación compuesto por una lámpara LED,
+                                paneles solares, batería, controlador de carga y también puede haber un inversor.
+                                La lámpara funciona con electricidad de baterías, cargadas mediante el uso
+                                de paneles solares fotovoltaicos.</p>
+                            <!--<a href="#" class="btn btn-primary">ver más...</a>-->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm">
+                    <div class="card">
+                        <div title="ahorro" class="cover cover-small"
+                            style="background-image: url(imagenes/logo_ahorro.jpg);">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Ahorro de Energia</h5>
+                            <p class="card-text">Consiste en utilizar la e​nergía de mejor manera. Es decir, con la
+                                misma cantidad
+                                de energía o con menos, obtener los mismos resultados. Esto se puede lograr a través del
+                                cambio de hábitos,
+                                del uso tecnologías más eficien​tes, o una combinación de ambos.</p>
+                            <!--<a href="#" class="btn btn-primary">ver más...</a>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container mt-5 " id="correo">
+            <h2>Correo</h2>
+            <div action="row">
+                <div class="col-12  ">
+                    <img src="imagenes/logo_correo.jpg" alt="logo de correo" width="200"/>                
+                    <h2>Ingresa tu correo</h2>
+                    <p>ingresa tu correo para que te podamos mandar ofectar nuevas </p>
+                </div>
+            </div>
+            <form action="">
+                <label for="email">Correo Electronico</label>
+                <div class="d-flex ">
+                    <div class="form-gruop flex-fill mr-2">
+                        <input type="email" id="email" class="form-control" />
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        Enviar
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section>
+        <div class="container mt-5" id="productos">
+            <h2>Productos</h2>
+            <div class="tira-productos">
+                <div class="strip-container">
+                    <div class="card">
+                        <div title="camara" class="cover cover-small"
+                            style="background-image: url(imagenes/logo_camara.jpg);"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">Camara de Seguridad</h5>
+                            <button> mas informacion</button>
+                            <span class="badge badge-info">$150 mx</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div title="lampara" class="cover cover-small"
+                            style="background-image: url(imagenes/logo_lamparas_solares.jpg);"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">Lampara Solares</h5>
+                            <span class="badge badge-info">$150 mx</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div title="ahorro" class="cover cover-small"
+                            style="background-image: url(imagenes/logo_ahorro.jpg);"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">Ahorro de Energia</h5>
+                            <span class="badge badge-info">$150 mx</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div title="ahorro" class="cover cover-small"
+                            style="background-image: url(imagenes/logo_ahorro.jpg);"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">Ahorro de Energia</h5>
+                            <span class="badge badge-info">$150 mx</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container mt-5 mb-5" id="ubicacion">
+            <h2>Ubicación</h2>
+            <h4>
+                Aqui nos vemos:
+            </h4>
+            <p>
+                Calle Lic Isidro Fabela Alfaro s/n, Centro, 50450 Atlacomulco, Méx.
+            </p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3753.9987205443667!2d-99.8766222!3d19.7976516!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d258915a529133%3A0x12cdd0c4cb0d316b!2sPalacio%20Municipal%20de%20Atlacomulco!5e0!3m2!1ses-419!2smx!4v1653269412061!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+    <section>
+        <h2>sugerias (buzon)</h2>
+    </section>
+    <section>
+        <h2>
+            contacto
+            <li class="nav-item active">
+                <a class="nav-link" href="#informacion">inicio</a>
+            </li>
+        </h2>
+    </section>
+
+</body>
+
+</html>
+
+</html>

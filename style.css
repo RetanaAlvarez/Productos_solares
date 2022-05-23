@@ -1,0 +1,50 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0cm;
+}
+
+h1 {
+    font-style: italic;
+    color: #373fff;
+}
+h2,h3,h4,h5{
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.cover {
+    height: 400px;
+    background-image: url(https://blogs.iadb.org/seguridad-ciudadana/wp-content/uploads/sites/27/2018/11/camaras-vigilancia-1024x683.jpg);
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+}
+
+.cover-small {
+    height: 200px;
+    background-blend-mode: normal;
+}
+.card {
+    border: 0 !important;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+.card-title{
+    min-height: 3rem;
+}
+card-text{
+    min-height: 10rem;
+}
+.strip-container{
+    display: flex;
+    
+    
+}
+.tira-productos{
+    overflow-x:scroll;
+}
+.strip-container .card{
+    width: 300px;
+    flex-shrink: 0;
+    margin-right: 1rem;
+}
