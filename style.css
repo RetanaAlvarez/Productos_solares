@@ -1,4 +1,5 @@
 body {
+    background: linear-gradient(90deg, #22c1c3, #fdbb2d);  
     font-family: 'Noto Sans', sans-serif;
     margin: 0cm;
 }
@@ -19,11 +20,13 @@ h2,h3,h4,h5{
     background-position: center;
     background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: darken;
+
 }
 
 .cover-small {
     height: 200px;
     background-blend-mode: normal;
+
 }
 .card {
     border: 0 !important;
@@ -37,7 +40,7 @@ card-text{
 }
 .strip-container{
     display: flex;
-    
+    background: #ada996;
     
 }
 .tira-productos{
