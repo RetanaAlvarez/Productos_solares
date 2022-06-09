@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<head>
+		<title>Formulario De Contacto</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<header>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="a">logo</a>
+
+            <ul class="nav" id="inicio">
+                <li class="nav-item">
+                    <a class="btn btn-success ml-auto mr-1" href="index.html">Principal</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-success ml-auto mr-1" href="login.html">Ingresar Sesión</a>
+                </li>
+        </nav>
+    </header>
+		<div class="form">
+			<form action="guardar.php" method="POST">
+				<p>Nombre</p>
+				<label for="nombre">Su nombre</label>
+				<br>
+				<input type="text" name="nombre" placeholder="Nombre" required>
+				<p>Apellidos</p>
+				<label for="Apellidos">Apellidos</label>
+				<br>
+				<input type="Apellidos" name="Apellidos" placeholder="Apellidos" required>
+				<p>Correo</p>
+				<label for="Correo">Direccion De Correo</label>
+				<br>
+				<input type="email" name="correo" placeholder="alguien@algo.com" required>
+				<p>Telefono</p>
+				<label for="Telefono">Telefono</label>
+				<br>
+				<input type="number" name="Telefono" placeholder="Telefono" required>
+				<p>Codigo Postal</p>
+				<label for="codigo">Codigo Postal</label>
+				<br>
+				<input type="number" name="codigo" placeholder="codigo" required>
+				<input type="submit" value="Enviar">
+			</form>
+		</div>
+	</body>
+</html> 	

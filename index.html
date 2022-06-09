@@ -18,9 +18,12 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="a">logo</a>
 
-            <ul class="nav" id="informacion">
+            <ul class="nav" id="inicio">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#informacion">inicio</a>
+                    <a class="nav-link" href="#inicio">inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#informacion">información</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#ubicacion">ubicacion</a>
@@ -32,10 +35,10 @@
                     <a class="nav-link" href="#productos">productos</a>
                 </li>
                 <li class="nav-item">
-                    <button class="btn btn-success ml-auto mr-1">Ingresar Sesión</button>
+                    <a class="btn btn-success ml-auto mr-1" href="login.html">Ingresar Sesión</a>
                 </li>
                 <li class="nav-item">
-                    <button class="btn btn-success ml-auto mr-1">Crear Sesión</button>    
+                    <a class="btn btn-success ml-auto mr-1" href="crear.html">Crear Cuenta</a>    
                 </li>
         </nav>
         <div class="cover d-flex justify-content-center align-items-center flex-column">
@@ -62,6 +65,7 @@
                             style="background-image: url(imagenes/logo_lamparas_solares.jpg);"></div>
                         <div class="card-body">
                             <h5 class="card-title">Cámara de seguridad wifi exterior</h5>
+                            <button> mas informacion</button>
                             <span class="badge badge-info">$1400 mx</span>
                         </div>
                     </div>
@@ -70,6 +74,7 @@
                             style="background-image: url(imagenes/teco.jpg);"></div>
                         <div class="card-body">
                             <h5 class="card-title">Foco led</h5>
+                            <button> mas informacion</button>
                             <span class="badge badge-info">$30 mx</span>
                         </div>
                     </div>
@@ -78,6 +83,7 @@
                             style="background-image: url(imagenes/lap_grande.jpg);"></div>
                         <div class="card-body">
                             <h5 class="card-title">Lampara solares</h5>
+                            <button> mas informacion</button>
                             <span class="badge badge-info">$275 mx</span>
                         </div>
                     </div>
@@ -86,6 +92,7 @@
                             style="background-image: url(imagenes/foco_musica.jpg);"></div>
                         <div class="card-body">
                             <h5 class="card-title">Foco de colores con bocina</h5>
+                            <button> mas informacion</button>
                             <span class="badge badge-info">$160 mx</span>
                         </div>
                     </div>
@@ -94,6 +101,7 @@
                             style="background-image: url(imagenes/lampada_7w.jpg);"></div>
                         <div class="card-body">
                             <h5 class="card-title">Foco blanco</h5>
+                            <button> mas informacion</button>
                             <span class="badge badge-info">$30 mx</span>
                         </div>
                     </div>
@@ -102,6 +110,7 @@
                             style="background-image: url(imagenes/lampada_cuadrado.jpg);"></div>
                         <div class="card-body">
                             <h5 class="card-title">Lampara solar chica</h5>
+                            <button> mas informacion</button>
                             <span class="badge badge-info">$200 mx</span>
                         </div>
                     </div>
@@ -110,6 +119,7 @@
                             style="background-image: url(imagenes/lampara_escritorio.jpg);"></div>
                         <div class="card-body">
                             <h5 class="card-title">Lampara de escritorio</h5>
+                            <button> mas informacion</button>
                             <span class="badge badge-info">$210 mx</span>
                         </div>
                     </div>
@@ -118,6 +128,7 @@
                             style="background-image: url(imagenes/lampara_chica.jpg);"></div>
                         <div class="card-body">
                             <h5 class="card-title">Lampara solar redonda</h5>
+                            <button> mas informacion</button>
                             <span class="badge badge-info">$140 mx</span>
                         </div>
                     </div>
@@ -126,6 +137,7 @@
                             style="background-image: url(imagenes/solar_circular.jpg);"></div>
                         <div class="card-body">
                             <h5 class="card-title">Lampara Solar Sensor de Movimiento</h5>
+                            <button> mas informacion</button>
                             <span class="badge badge-info">$115 mx</span>
                         </div>
                     </div>
@@ -134,7 +146,7 @@
         </div>
     </section>
     <section>
-        <div class="container mt-5" >
+        <div class="container mt-5 mb-5" id="informacion" >
             <h2>Informacion General</h2>
             <div class="row justify-content-center">
                 <div class="col-12 col-sm">
@@ -222,18 +234,19 @@
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3753.9987205443667!2d-99.8766222!3d19.7976516!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d258915a529133%3A0x12cdd0c4cb0d316b!2sPalacio%20Municipal%20de%20Atlacomulco!5e0!3m2!1ses-419!2smx!4v1653269412061!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </section>
-    <section>
+    <section class="container mt-5 mb-5" id="contacto">
         <h2>sugerias (buzon)</h2>
     </section>
-    <section>
+    <section class="container mt-5 mb-5" id="contacto">
         <h2>
             contacto
             <li class="nav-item active">
-                <a class="nav-link" href="#informacion">inicio</a>
+                
             </li>
         </h2>
-    </section>
 
+    </section>
+<a class="nav-link" href="#inicio">inicio</a>
 </body>
 
 </html>
